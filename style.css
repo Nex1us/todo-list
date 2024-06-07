@@ -1,0 +1,57 @@
+*{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+
+}
+
+
+/* @keyframes slidein {
+    from { 
+        background: rgb(131,58,180)
+    }
+    to {
+        background: rgb(253,29,29)
+    }
+} */
+
+
+
+#task, #add {
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 100%, rgba(253,29,29,1) 100%, rgba(252,176,69,1) 100%);
+}
+
+
+li {
+    position: relative;
+    margin-bottom:10px;
+    padding: 10px;
+    color: white;
+    
+}
+
+li:hover{
+    background: rgba(255,255,255, 0.6);
+}
+
+li button {
+    position: absolute;
+    right: 5px;
+}
+
+button {
+    cursor: pointer;
+    color: white;
+    background: rgb(253,29,29);
+background: linear-gradient(90deg, rgba(253,29,29,0.5438550420168067) 0%, rgba(252,176,69,1) 0%);
+}
+input{
+    color: white;
+}
+h1{
+    color: white;
+font-weight: bold;
+}
